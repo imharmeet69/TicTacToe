@@ -75,3 +75,10 @@ body{
   border-radius: 5px;
   cursor: pointer;
 }
+
+span{
+position: absoulute;
+  bottom: 10px;
+  right: 10px;
+}
+  
