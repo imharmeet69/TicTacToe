@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #e0e0e0, #a0d8ef); 
+  height: 100vh;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  padding: 20px;
+
+
+}
+
+.cell{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  background-color: rgba(240, 236, 236, 0.453);
+  border: 2px solid rgba(225, 211, 211, 0.453);
+  cursor: pointer;
+}
+
+.restart{
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #467153de;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cellContainer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 306px; 
+  height: 306px;    
+  margin: 20px 20px 30px 0;
+  gap: 8px;
+
+  text-align: center;
+  
+}
+
+.statusText{
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.restart{
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #467153de;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
